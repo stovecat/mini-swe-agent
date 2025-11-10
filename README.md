@@ -157,6 +157,21 @@ bash scripts/eval_vllm_swebench.sh
 
 ---
 
+## 🧪 Results
+
+| Model                       | % Resolved | Version |
+| :-------------------------- | :--------: | :-----: |
+| **Reported**                |            |         |
+| gpt-oss-120b                |    26.00   |  1.7.0  |
+| Llama-4-Scout-17B-16E       |    9.06    |  0.0.0  |
+| Qwen2.5-Coder-32B-Instruct  |    9.00    |  1.0.0  |
+| **Reproduced**              |            |         |
+| gpt-oss-120b                |    30.00   |  1.14.2 |
+| Qwen3-30B-A3B-Instruct-2507 |    11.00   |  1.14.2 |
+
+
+---
+
 ## 📚 References
 
 * [SWE-bench](https://www.swebench.com)
